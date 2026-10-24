@@ -160,5 +160,4 @@ def convert(f):
             
     return "".join(f"{instr:032b}\n" for instr in mcode)
 
-if __name__ == "__main__":
-    main()
+main()
